@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Shauly's blog</h1>
+
+<form action="/action_page.php">
+  Date:
+  <input type="date" name="bday">
+  <input type="submit" value="Send">
+  <input placeholder="Name">
+  <input placeholder="Words">
+  <input type="range" name="points" min="1" max="10">
+  <audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+</audio>
+</form>
+
+
+</body>
+</html>
