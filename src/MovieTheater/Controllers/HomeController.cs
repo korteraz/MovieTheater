@@ -21,10 +21,17 @@ namespace MovieTheater.Controllers
 
             return View();
         }
-
+        
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
+
+            return View();
+        }
+
+        public IActionResult LogIn()
+        {
+            ViewData["Message"] = "LogIn page.";
 
             return View();
         }

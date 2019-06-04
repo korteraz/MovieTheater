@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "LogIn";
+}
+
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<form>
+    <label>Email</label>
+    @Html.TextBox("LogInEmail", null, new { @class = "form-control" })
+    <label>Password</label>
+    @Html.TextBox("LogInPassword", null, new { @class = "form-control" })
+</form>
